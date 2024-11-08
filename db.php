@@ -1,9 +1,9 @@
 <?php
 // db.php
 $host = 'localhost';
-$dbname = 'audio_generator';
-$username = 'your_db_user';
-$password = 'your_db_password';
+$dbname = 'tts_php_db';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
